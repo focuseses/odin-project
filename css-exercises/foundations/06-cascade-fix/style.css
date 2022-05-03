@@ -1,0 +1,54 @@
+/*order of importance*/
+
+
+/* 
+1. id
+2. class
+3. element
+*/
+
+.para,
+.small-para {
+    color: hsl(0, 100%, 50%);
+}
+
+
+/* edit 1 */
+
+p.small-para {
+    font-size: 14px;
+}
+
+.para {
+    font-size: 22px;
+}
+
+.confirm {
+    background: green;
+    color: white;
+    font-weight: bold;
+}
+
+.button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+div.child {
+    color: red;
+    font-size: 14px;
+}
+
+
+/* edit 2 */
+
+.text .child {
+    color: red;
+    font-size: 14px;
+}
+
+div.text {
+    color: green;
+    font-size: 22px;
+}
