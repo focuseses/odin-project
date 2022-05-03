@@ -1,0 +1,73 @@
+            .background .hero-logo {
+                font-size: 24px;
+                color: white;
+                font-weight: bold;
+                background-color: #1f1f1f;
+            }
+            
+            nav {
+                display: flex;
+                margin: auto;
+                width: 80%;
+                padding: 20px 0px;
+                justify-content: space-between;
+            }
+            
+            .info {
+                color: black;
+                font-weight: bold;
+            }
+            
+            .divider {
+                width: 50%;
+                justify-content: space-around;
+                display: inline-flex;
+            }
+            
+            .top {
+                color: white;
+                font-weight: bold;
+                font-size: 28px;
+            }
+            
+            #elephant {
+                height: 1000px;
+                width: 3000px;
+            }
+            
+            .pictures {
+                flex-direction: row;
+                display: flex;
+                margin: 20px;
+            }
+            
+            .image {
+                display: flex;
+                justify-content: space-around;
+                width: 200px;
+            }
+            
+            p {
+                color: white;
+            }
+            
+            .second {
+                flex-direction: row;
+                display: flex;
+                margin: 40px;
+            }
+            
+            .second-item {
+                flex: 1;
+                display: block;
+                justify-content: center;
+                align-items: space-around;
+                padding: 10px;
+                height: 200px;
+                flex: 1 1 0%;
+            }
+            
+            img {
+                height: 100px;
+                width: 180px;
+            }
